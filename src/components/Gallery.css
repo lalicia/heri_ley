@@ -20,3 +20,48 @@
 .exhibit:hover {
     scale: 1.1;
 }
+
+/******************************************ExhibitModal.js css*/
+.modalbg {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(59, 59, 59, 0.85);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-xbtn {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 0 .25rem 0;
+}
+
+.modal-xbtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: yellow;
+    text-shadow: 1px 1px 1px rgb(52, 180, 180), 0 0 25px orange, 0 0 5px orangered;
+}
+
+i {
+    font-size: 1rem;
+}
+
+.modal-img {
+    /* flex: 50%; */
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px double teal;
+    border-radius: 5px;
+    box-shadow: 8px 8px 8px rgb(52, 180, 180), 0 0 10px orange, 0 0 10px orangered;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
