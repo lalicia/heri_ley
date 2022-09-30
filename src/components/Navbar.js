@@ -8,7 +8,7 @@ function Navbar() {
 
 
     return(
-        <nav className="navbar">
+        <nav id="navbar" className="navbar">
             <div className="logo">
                 <h1>HERI LEY</h1>
             </div>

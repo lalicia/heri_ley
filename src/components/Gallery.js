@@ -18,6 +18,7 @@ import gal11 from "../assets/11.jpg";
 import gal12 from "../assets/12.jpg";
 import gal13 from "../assets/13.jpg";
 import gal14 from "../assets/14.jpg";
+import BackButton from "./BackButton.js";
 
 function Gallery() {
 
@@ -40,11 +41,14 @@ function Gallery() {
     ]
 
     return (
-        <div className="gallery">
-            {exhibits.map((item) => 
-                <Exhibit image={item} />
-                )}
-        </div>
+        // <div className="overall">
+            <div className="gallery">
+                {exhibits.map((item) => 
+                    <Exhibit image={item} />
+                    )}
+            </div>
+            /* <BackButton />
+        </div> */
     )
 }
 
