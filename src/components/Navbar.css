@@ -10,9 +10,9 @@
 }
 
 .logo {
-    margin: 3rem 2rem 1rem 5rem;
+    margin: 3rem 2rem 1rem 10%;
     width: 50%;
-    text-align: center;
+    /* text-align: center; */
     font-family: 'Passero One', cursive;
     font-size: 7rem;
     color: navy;
@@ -22,8 +22,8 @@
 .navlinks {
     display: flex;
     flex-direction: row;
-    margin: 4rem 10rem 2rem 2rem;
-    justify-content: space-around;
+    margin: 4rem 10% 2rem 2rem;
+    justify-content: space-between;
     width: 50%;
     align-items: center;
     font-family: 'Passero One', cursive;
