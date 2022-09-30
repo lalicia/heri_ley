@@ -18,14 +18,18 @@
 .navlinks {
     display: flex;
     flex-direction: row;
-    margin: 2rem 5rem;
-    justify-content: space-between;
+    margin: 2rem 10rem 2rem 2rem;
+    justify-content: space-around;
     width: 50%;
     align-items: center;
     font-family: 'Passero One', cursive;
     font-size: 3rem;
     color: navy;
-    text-shadow: 1px 1px 1px teal;
+    text-shadow: 1.5px 1.5px 1px rgb(52, 180, 180);
+}
+
+.navlink {
+    margin: .5rem;
 }
 
 .socialslogo {
