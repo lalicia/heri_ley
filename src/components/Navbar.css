@@ -1,8 +1,12 @@
 .navbar {
+    overflow: hidden;
     background-color: maroon;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    /* width: 100%;
+    top: 0;
+    position: fixed; this was for having navbar fixed to top*/
 }
 
 .logo {
