@@ -14,5 +14,9 @@
     width: 10rem;
     border: 5px double teal;
     border-radius: 5px;
-    box-shadow: 8px 8px 8px rgb(52, 180, 180);
+    box-shadow: 8px 8px 8px rgb(52, 180, 180), 0 0 10px orange, 0 0 10px orangered;
+}
+
+.exhibit:hover {
+    scale: 1.1;
 }
