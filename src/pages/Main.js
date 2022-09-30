@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar.js";
 import Gallery from "../components/Gallery.js";
+import About from "../components/About.js";
 
 
 function Main() {
@@ -10,7 +11,7 @@ function Main() {
         <>
             <Navbar />
             <Gallery />
-
+            <About />
 
         </>
     )
