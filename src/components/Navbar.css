@@ -32,6 +32,15 @@
     margin: .5rem;
 }
 
+.navlink:hover {
+    scale: 1.1;
+}
+
+.navlink:active {
+    color: orange;
+    text-shadow: 1.5px 1.5px 1px rgb(52, 180, 180), 0 0 25px orange, 0 0 5px orangered;
+}
+
 .socialslogo {
     width: 2rem;
     height: auto;

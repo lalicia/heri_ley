@@ -14,8 +14,8 @@ function Navbar() {
             </div>
 
             <div className="navlinks">
-                <h3><a className="navlink" href="#about">ABOUT</a></h3>
-                <h3><a className="navlink" href="#events">EVENTS</a></h3>
+                <a className="navlink" href="#about">ABOUT</a>
+                <a className="navlink" href="#events">EVENTS</a>
                 {/* <div className="socialslink"> */}
                     <a className="navlink" href="https://www.instagram.com/ragnavladez/" target="_blank" rel="noreferrer"><img className="socialslogo" src={Instagram} alt="Instagram" /></a>
                 {/* </div> */}
