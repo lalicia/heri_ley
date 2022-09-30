@@ -1,17 +1,7 @@
 export const calendar = [
     {
-        date: "Oct 10th 2022",
-        name: "Suchacon",
-        place: "Texasville, TX"
-    },
-    {
-        date: "Oct 17th 2022",
-        name: "Anothercon",
-        place: "Somewhereville, TX"
-    },
-    {
-        date: "Oct 23th 2022",
-        name: "Ohboyacon",
-        place: "Somewherelseville, TX"
+        date: "Oct 1st - Oct 2nd 2022",
+        name: "Anime Fiesta",
+        place: "McAllen Convention Center, McAllen TX"
     }
 ]

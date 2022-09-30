@@ -50,6 +50,8 @@ hr {
     display: flex;
     flex-direction: row;
     /* width: 100%; */
+    align-items: center;
+    justify-items: center;
     margin-top: 3rem;
     margin-left: 15%;
     margin-right: 15%;

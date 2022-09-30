@@ -1,6 +1,6 @@
 import React from "react";
 
-import placeholder from "../assets/1.jpg";
+import heri from "../assets/heri.JPG";
 
 import styles from "./About.css";
 
@@ -11,7 +11,7 @@ function About() {
             <hr></hr>
             <div className="about-row-container">
                 <div className="about-img-container">
-                    <img className="about-img" src={placeholder} alt="Heri" />
+                    <img className="about-img" src={heri} alt="Heri" />
                 </div>
 
                 <div className="about-blurb-container">

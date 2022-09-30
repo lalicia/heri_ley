@@ -2,8 +2,8 @@ import React from "react";
 import EventListing from "./EventListing.js";
 import {calendar} from "./Calendar.js"
 
-import placeholder1 from "../assets/2.jpg";
-import placeholder2 from "../assets/3.jpg";
+import con1 from "../assets/con1.JPG";
+import con2 from "../assets/con2.JPG";
 
 import styles from "./Events.css";
 
@@ -20,8 +20,8 @@ function Events() {
                 </div>
 
                 <div className="events-img-container">
-                    <img className="events-img" src={placeholder1} alt="Heri" />
-                    <img className="events-img" src={placeholder2} alt="Heri" />
+                    <img className="events-img" src={con1} alt="Heri" />
+                    <img className="events-img" src={con2} alt="Heri" />
                 </div>
             {/* </div> */}
         </div>
