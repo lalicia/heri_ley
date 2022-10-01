@@ -87,3 +87,10 @@ i {
     margin-top: 1rem;
     z-index: 1;
 }
+
+/**************************************Media Queries */
+@media (max-width: 768px) {
+    .modal-img {
+        height: 50vh;
+    }
+}
