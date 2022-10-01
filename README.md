@@ -18,8 +18,7 @@ I've been friends with Heri for a while, having met via our mutual love of karao
 
 I put together a couple of different low-fi wireframe designs in Excalidraw, and sent these along with some colour and font options to Heri for his opinions - before producing high-fi wireframes in Figma based on the outcomes of those decisions.
 
-<img src="./readme_images/exhibit.JPG" alt="exhibit modal screenshot" width="750px" />
-<img src="./readme_images/exhibit.JPG" alt="exhibit modal screenshot" width="750px" />
+<img src="./readme_images/excalidraw.JPG" alt="low-fidelity wireframes" width="350px" /> <img src="./readme_images/figma.JPG" alt="high-fidelity wireframes" width="500px" />
 
 The colours and style choices reflect the nature and vibrancy of Heri's art, but simultaneously allow it to stand out as the main focus of the site.
 
