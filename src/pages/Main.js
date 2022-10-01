@@ -15,7 +15,7 @@ function Main() {
             <Gallery />
             <About />
             <Events />
-            <BackButton />
+            {/* <BackButton /> */}
         </>
     )
 }

@@ -26,6 +26,8 @@ hr {
     display: flex;
     flex-direction: column;
     margin-top: 2rem;
+    margin-right: 7%;
+    margin-left: 7%;
     /* width: 100%; */
     text-align: center;
 }

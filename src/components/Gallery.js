@@ -3,6 +3,8 @@ import Exhibit from "./Exhibit.js";
 
 import styles from "./Gallery.css";
 
+import back from "../assets/backbutton.JPG";
+
 //images 
 import gal1 from "../assets/1.jpg";
 import gal2 from "../assets/2.jpg";
@@ -18,7 +20,7 @@ import gal11 from "../assets/11.jpg";
 import gal12 from "../assets/12.jpg";
 import gal13 from "../assets/13.jpg";
 import gal14 from "../assets/14.jpg";
-import BackButton from "./BackButton.js";
+// import BackButton from "./BackButton.js";
 
 function Gallery() {
 
@@ -41,14 +43,15 @@ function Gallery() {
     ]
 
     return (
-        // <div className="overall">
+        <div className="overall">
             <div className="gallery">
                 {exhibits.map((item) => 
                     <Exhibit image={item} />
                     )}
             </div>
-            /* <BackButton />
-        </div> */
+            {/* <BackButton /> */}
+            <a className="back-btn" href="#navbar"><img className="back-btn-img" src={back} alt="back button" /></a>
+        </div>
     )
 }
 

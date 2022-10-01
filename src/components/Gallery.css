@@ -26,6 +26,19 @@
     scale: 1.1;
 }
 
+/***************************************Back Button*/
+.back-btn {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    margin-left: 1rem;
+}
+
+.back-btn-img {
+    cursor: pointer;
+    width: 2.5rem;
+}
+
 /******************************************ExhibitModal.js css*/
 .modalbg {
     width: 100vw;
@@ -37,12 +50,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1; /*set z-indexs as back button was showing over modal background*/
 }
 
 .modal-xbtn {
     display: flex;
     justify-content: flex-end;
     margin: 0 0 .25rem 0;
+    z-index: 1;
 }
 
 .modal-xbtn button {
@@ -52,6 +67,7 @@
     cursor: pointer;
     color: yellow;
     text-shadow: 1px 1px 1px rgb(52, 180, 180), 0 0 25px orange, 0 0 5px orangered;
+    z-index: 1;
 }
 
 i {
@@ -69,18 +85,5 @@ i {
     box-shadow: 8px 8px 8px rgb(52, 180, 180), 0 0 10px orange, 0 0 10px orangered;
     margin-bottom: 2rem;
     margin-top: 1rem;
-}
-
-
-/***************************************Back Button*/
-.back-btn {
-    position: fixed;
-    bottom: 2rem;
-    right: 2rem;
-    margin-left: 1rem;
-}
-
-.back-btn-img {
-    cursor: pointer;
-    width: 2.5rem;
+    z-index: 1;
 }
