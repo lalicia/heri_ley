@@ -10,6 +10,9 @@
 }
 
 .logo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     margin: 3rem 2rem 1rem 10%;
     width: 50%;
     /* text-align: center; */
@@ -57,51 +60,61 @@ a {
     color: inherit;
 }
 
+/***************************************Media Queries*/
+
+
 @media (max-width: 864px) {
     html {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .logo {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        width: 50%;
+        margin: 3rem 1rem 1rem 6%;
+    }
+
+     .navlinks {
+        margin: 4rem 6% 2rem 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 10.5px;
+    }
+
+    .logo {
+        margin: 3rem 1rem 1rem 6%;
+    }
+
+     .navlinks {
+        margin: 4rem 6% 2rem 1rem;
+    }
+}
+
+@media (max-width: 640px) {
+    html {
+        font-size: 8.5px;
+    }
+
+    .logo {
+   
         margin-top: 3rem;
         margin-right: .5rem;
         margin-bottom: 1rem;
         margin-left: 3%;
         font-size: 5rem;
-        text-align: center;
+        /* justify-content: center; */
     }
 
     .navlinks {
         margin: 3rem 3% .5rem .5rem;
-        justify-content: space-between;
-        width: 50%;
-        align-items: center;
-        font-family: 'Passero One', cursive;
         font-size: 2.5rem;
-        color: navy;
-        text-shadow: 1.5px 1.5px 1px rgb(52, 180, 180), 0 0 25px orange, 0 0 5px orangered;
     }
 
     .socialslogo {
-        width: 1.5rem;
+        width: 1.8rem;
         height: auto;
         margin-top: .6rem;
         margin-left: .25rem;
-    }
-    
-    a {
-        text-decoration: none;
-        color: inherit;
-    }
-
-}
-
-@media (max-width: 768px) {
-    html {
-        font-size: 9px;
     }
 }
