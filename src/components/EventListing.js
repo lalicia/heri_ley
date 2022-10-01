@@ -7,7 +7,7 @@ function EventListing({date, name, place}) {
 
     return (
         <>
-            <h3 className="event-listitem">{date} - {name}, {place}</h3>
+            <h3 className="event-listitem">{date} : {name}, {place}</h3>
         </>
     )
 }
