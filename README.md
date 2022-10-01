@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# Website for artist Heri Ley
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Visit the site](https://heri-ley.netlify.app/)
 
-## Available Scripts
+## Screenshots
 
-In the project directory, you can run:
+Gallery:
 
-### `npm start`
+<img src="./readme_images/gallery.JPG" alt="gallery screenshot" width="750px" />
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Exhibit modal:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<img src="./readme_images/exhibit.JPG" alt="exhibit modal screenshot" width="750px" />
 
-### `npm test`
+## The Project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+I've been friends with Heri for a while, having met via our mutual love of karaoke (of all things!) on the mobile app, Smule. Knowing he's such a talented artist, I actually asked if he wouldn't mind making me some art for a project I'm working on, and this made me wonder if he'd like a site to showcase his work.
 
-### `npm run build`
+I put together a couple of different low-fi wireframe designs in Excalidraw, and sent these along with some colour and font options to Heri for his opinions - before producing high-fi wireframes in Figma based on the outcomes of those decisions.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img src="./readme_images/exhibit.JPG" alt="exhibit modal screenshot" width="750px" />
+<img src="./readme_images/exhibit.JPG" alt="exhibit modal screenshot" width="750px" />
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The colours and style choices reflect the nature and vibrancy of Heri's art, but simultaneously allow it to stand out as the main focus of the site.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## The Build
 
-### `npm run eject`
+The design was different to other projects I've worked on in that it's a purely single-page application with the navbar links navigating to sections of the same page, achieved with simple HTML navigation based on element ids.  I opted not to implement smooth scrolling as I personally find this somewhat of an accessibility issue, having a vestibular balance disorder.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Keeping in mind that I wanted Heri to be able to update the site easily by himself, my main concerns were making the gallery exhibits easy to add to/update, as well as the events. To this end, both are stored in simple arrays that are then mapped through to produce the respective components - so updating is simply a matter of adding/removing an item to an array in an established format.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The app is responsive and optimised for different viewports, as people meeting Heri at conventions are likely to use their phones in the first instance to view his site, but other artists might be more likely to visit via tablet/desktop, so this was a key consideration.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Tech
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+React, CSS, JavaScript, HTML, Netlify
 
-## Learn More
+## Some Thoughts
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Having a 'client' as such was really good for not only focussing my attention to very specific needs, but also made for a really interesting collaboration on a different level to that which I've been exposed to previously. I really enjoyed the element of delivering something for a real 'customer' :smile:
