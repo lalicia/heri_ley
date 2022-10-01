@@ -72,3 +72,23 @@ hr {
     color: yellow;
     text-shadow: 0px 0px 4px navy;
 }
+
+/**************************************Media Queries*/
+
+@media (max-width: 768px) {
+    .about-img-container {
+        margin: 3rem 1rem 2rem 5%;
+    }
+    
+    .about-img {
+        max-width: 85%;
+    }
+    
+    .about-blurb-container {
+        margin: 3rem 5% 2rem 1rem;
+    }
+
+    .about-blurb {
+        max-width: 95%;
+    }
+}
