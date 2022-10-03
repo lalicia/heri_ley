@@ -1,6 +1,6 @@
 import React from "react";
 
-import heri from "../assets/heri.JPG";
+import heri from "../assets/hericol.jpg";
 
 import styles from "./About.css";
 
