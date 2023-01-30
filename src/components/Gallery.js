@@ -20,6 +20,9 @@ import gal11 from "../assets/11.jpg";
 import gal12 from "../assets/12.jpg";
 import gal13 from "../assets/13.jpg";
 import gal14 from "../assets/14.jpg";
+import gal15 from "../assets/15.jpg";
+import gal16 from "../assets/16.jpg";
+import gal17 from "../assets/17.jpg";
 // import BackButton from "./BackButton.js";
 
 function Gallery() {
@@ -39,7 +42,10 @@ function Gallery() {
         gal11,
         gal12,
         gal13,
-        gal14
+        gal14,
+        gal15,
+        gal16,
+        gal17
     ]
 
     return (
